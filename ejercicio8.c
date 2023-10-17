@@ -1,9 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int numero;
-    printf("Por favor, ingrese un número:\n");
-    scanf("%d", &numero);
-    printf("Su número ingresado es: %d\n", numero);
+    int minimo = 2;
+    int maximo = 200;
+    printf("EL PROGRAMA MOSTRAR LOS NUMEROS PARES ENTRE 20 Y 200");
     return 0;
 }
