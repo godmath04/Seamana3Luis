@@ -11,11 +11,12 @@ int main() {
         pares = x%2;
         if (pares == 0)
         {
-           printf("Numero par: %d\n", x);
+           printf("%d ", x);
         }
         x++;
     } while (x<=200 && x>=2);
     
-    
+    printf("\n");
+    printf("GRACIAS ");
     return 0;
 }
