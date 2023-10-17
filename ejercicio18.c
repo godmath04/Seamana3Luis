@@ -10,16 +10,17 @@ int main()
     printf("\n");
     scanf("%d", &mayor);
     printf("Sus numeros son %d y %d", menor, mayor);
+    printf("\n");
+
     x = menor;
     do
     {
         if (x % MULTIPLO == 0)
         {
-            printf("%d", &x);
+            printf("%d\n", x);
         }
-        
-        
-    } while (x>=menor && x<=mayor);
+        x++;    
+    } while (x >= menor && x <= mayor);
     
     
     return 0;
