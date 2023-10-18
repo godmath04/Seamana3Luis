@@ -1,16 +1,27 @@
 #include<stdio.h>
 
-int menor, mayor;
+int num1, num2;
 int MULTIPLO = 5;
 int x;
+int menor, mayor;
 int main()
 {
     printf("PROGRAMA QUE LEE DOS NUMEROS Y MUESTRA LOS MULTIPLOS DE 5 ENTRE ELLOS: \n");
-    scanf("%d", &menor);
+    scanf("%d", &num1);
     printf("\n");
-    scanf("%d", &mayor);
-    printf("Sus numeros son %d y %d", menor, mayor);
+    scanf("%d", &num2);
+    printf("Sus numeros son %d y %d", num1, num2);
     printf("\n");
+    if (num1 < num2)
+    {
+        menor = num1;
+        mayor = num2;
+    }else
+    {
+        menor = num2;
+        mayor = num1;
+    }
+    
 
     x = menor;
     do
