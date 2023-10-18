@@ -13,7 +13,7 @@ int main()
     scanf("%d", &num2);
     printf("Sus numeros son %d y %d", num1, num2);
     printf("\n");
-    printf("Los multiplos son: \n");
+    printf("Los multiplos de 5 son: \n");
     if (num1 < num2)
     {
         menor = num1;
