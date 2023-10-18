@@ -36,5 +36,13 @@ int main()
     printf("Los numeros ingresados son: %d y %d\n", user1, user2);
     primos(user1, user2);
 
+    do
+    {
+        /* code */
+    } while (/* condition */);
+    
+
+    //printf("Cantidad de números primos entre 1 y %d: %d\n", user1, cont1);
+    //printf("Cantidad de números primos entre 1 y %d: %d\n", user2, cont2);
     return 0;
 }
