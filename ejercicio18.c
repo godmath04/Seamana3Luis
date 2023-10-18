@@ -7,11 +7,13 @@ int menor, mayor;
 int main()
 {
     printf("PROGRAMA QUE LEE DOS NUMEROS Y MUESTRA LOS MULTIPLOS DE 5 ENTRE ELLOS: \n");
+    printf("Ingrese dos numeros para obtener los multiplos de 5 entre ellos: \n");
     scanf("%d", &num1);
     printf("\n");
     scanf("%d", &num2);
     printf("Sus numeros son %d y %d", num1, num2);
     printf("\n");
+    printf("Los multiplos son: \n");
     if (num1 < num2)
     {
         menor = num1;
@@ -28,7 +30,7 @@ int main()
     {
         if (x % MULTIPLO == 0)
         {
-            printf("%d\n", x);
+            printf("%d ", x);
         }
         x++;    
     } while (x >= menor && x <= mayor);
